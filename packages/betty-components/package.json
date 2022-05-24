@@ -3,5 +3,11 @@
   "version": "10.3.4",
   "scripts": {
     "version": "node src/utils/generateVersionsFile.js"
+  },
+  "files": [
+    "dist"
+  ],
+  "devDependencies": {
+    "lerna": "^4.0.0"
   }
 }
