@@ -1,0 +1,7 @@
+{
+  "name": "@kambisports/betty-components",
+  "version": "10.3.4",
+  "scripts": {
+    "version": "node src/utils/generateVersionsFile.js"
+  }
+}
