@@ -9,7 +9,7 @@
  */
 
 const fs = require('fs');
-const packageJson = require(process.env.npm_package_json);
+const packageJson = require('../../../../package.json');
 
 
 const bettyComponentsVersion = packageJson.version;
