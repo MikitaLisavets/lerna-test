@@ -9,10 +9,11 @@
  */
 
 const fs = require('fs');
+const packageJson = process.env.npm_package_json;
 
-const bettyComponentsVersion = process.env.npm_package_version;
-const bettyThemesVersion =
-  process.env.npm_package_devDependencies__kambisports_betty_themes.replace(
+
+const bettyComponentsVersion = packageJson.version;
+const bettyThemesVersion = packageJson.devDependencies['@kambisports/betty-themes'].replace(
     '^',
     '',
   );
