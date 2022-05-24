@@ -1,6 +1,6 @@
 {
   "name": "@kambisports/betty-components",
-  "version": "10.3.4",
+  "version": "10.3.5",
   "scripts": {
     "version": "node src/utils/generateVersionsFile.js"
   },
@@ -8,7 +8,7 @@
     "dist"
   ],
   "devDependencies": {
-    "lerna": "^4.0.0",
-    "@kambisports/betty-themes": "^10.7.1"
+    "@kambisports/betty-themes": "^10.7.2",
+    "lerna": "^4.0.0"
   }
 }
